@@ -4,10 +4,6 @@ import cv2
 import numpy as np
 
 def face_reg():
-    # This is a demo of running face recognition on live video from your webcam. It's a little more complicated than the
-    # other example, but it includes some basic performance tweaks to make things run a lot faster:
-    #   1. Process each video frame at 1/4 resolution (though still display it at full resolution)
-    #   2. Only detect faces in every other frame of video.
 
     # Get a reference to webcam #0 (the default one)
     video_capture = cv2.VideoCapture(0)
